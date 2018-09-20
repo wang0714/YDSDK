@@ -1,0 +1,11 @@
+framework module GMSFCSDK {
+  umbrella header "GMSFCSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module GMSFCSDK.Swift {
+    header "GMSFCSDK-Swift.h"
+    requires objc
+}
